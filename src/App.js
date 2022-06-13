@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Analytics from './components/Analytics';
 import Newsletter from './components/Newsletter';
 import PaymentPlanCards from './components/PaymentPlanCards';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
       <Newsletter />
       {/* Third section section */}
       <PaymentPlanCards />
+      {/* Final section */}
+      <Footer />
     </>
   );
 };
