@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Analytics from './components/Analytics';
+import Newsletter from './components/Newsletter';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       </div>
       {/* Second section */}
       <Analytics />
+      <Newsletter />
     </>
   );
 };
