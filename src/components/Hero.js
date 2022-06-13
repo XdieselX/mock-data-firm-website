@@ -25,6 +25,13 @@ const Hero = () => {
         <p className='md:text-2xl text-xl font-bold text-gray-400'>
           {`Monitor your data analytics to increase revenue for BTB, BTC, & SAAS platforms.`}
         </p>
+        <button
+          className='bg-[#00df9a] w-[150px] uppercase font-bold rounded-md my-6 mx-auto py-3 
+                    text-gray-900 shadow-lg shadow-gray-800 hover:scale-110 hover:shadow-2xl 
+                    hover:shadow-black duration-300 active:scale-100'
+        >
+          Get Started
+        </button>
       </div>
     </div>
   );
