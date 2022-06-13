@@ -22,7 +22,9 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-400'>{`Monitor your data analytics to increase revenue for BTB, BTC, & SAAS platforms.`}</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-400'>
+          {`Monitor your data analytics to increase revenue for BTB, BTC, & SAAS platforms.`}
+        </p>
       </div>
     </div>
   );
