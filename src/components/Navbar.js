@@ -24,11 +24,11 @@ const Navbar = () => {
       </ul>
       <div onClick={navClickHandler} className='block md:hidden'>
         {/* Hamburger menu */}
-        {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <div
         className={
-          !nav
+          nav
             ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 px-4 bg-[#000300] ease-in-out duration-500'
             : 'fixed left-[-100%]'
         }
