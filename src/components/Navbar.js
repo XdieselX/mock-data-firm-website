@@ -14,7 +14,7 @@ const Navbar = () => {
       <h1 className='w-full text-3xl font-bold text-[#00df9a] uppercase'>
         Surge Analytics.
       </h1>
-      <ul className='hidden md:flex space-x-8'>
+      <ul className='hidden md:flex space-x-8 font-medium'>
         {/* Navbar list - desktop */}
         <li className='cursor-pointer'>Home</li>
         <li className='cursor-pointer'>Company</li>
